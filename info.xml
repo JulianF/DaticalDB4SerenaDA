@@ -10,7 +10,7 @@
 
 	<integration type="Deploy"/>
 
-	<source url="http://www.github.com/Datical/DaticalDB4SerenaRM"/>
+	<source url="http://www.github.com/Datical/DaticalDB4SerenaDA"/>
 
 	<licenses>
 		<license type="Apache 2.0"/>
