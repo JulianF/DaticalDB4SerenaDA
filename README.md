@@ -1,6 +1,6 @@
-DaticalDB4SerenaRM
+DaticalDB4SerenaDeploymentAutomation
 =================
 
-This plugin brings Datical DB functionality to Serena Release Manager.
+This plugin brings Datical DB functionality to Serena Deployment Automation.
 
 Two properties in the plugin step, Datical DB Install Directory and Datical DB Drivers Directory, read a default property at the resource (Agent) level. For each agent that is going to execute Datical DB, create a Resource Property called daticalDBCmd and daticalDBDriversDir.  
