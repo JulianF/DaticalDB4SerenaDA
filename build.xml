@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="DaticalDB4SerenaRM" default="dist" basedir=".">
+<project name="DaticalDB4SerenaDA" default="dist" basedir=".">
 	<description>
         simple example build file
     </description>
@@ -22,7 +22,7 @@
 		
 		<mkdir dir="${dist}" />
 
-		<zip destfile="${dist}/DaticalDB4SerenaRM-1.${build.number}.zip" basedir="." excludes=".git/*,**/dist,dist/*" />
+		<zip destfile="${dist}/DaticalDB4SerenaDA-1.${build.number}.zip" basedir="." excludes=".git/*,**/dist,dist/*" />
 	</target>
 
 	<target name="clean" description="clean up">
