@@ -1,4 +1,4 @@
-DaticalDB4SerenaDeploymentAutomation
+DaticalDB4SerenaDA
 =================
 
 This plugin brings Datical DB functionality to Serena Deployment Automation.
