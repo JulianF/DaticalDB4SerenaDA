@@ -71,6 +71,11 @@ if (daticalDBContext) {
 	cmdArgs << daticalDBContext;
 }
 
+if (daticalDBDeployThreshold) {
+	cmdArgs << "--deployThreshold";
+	cmdArgs << daticalDBDeployThreshold;
+}
+
 cmdArgs << daticalDBAction;
 cmdArgs << daticalDBServer;
 
