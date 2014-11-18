@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.urbancode.com/PluginXMLSchema_v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <header>
-    <identifier version="7" id="com.datical.integration.udeploy.DaticalDB4SerenaDA" name="Datical DB" />
+    <identifier version="8" id="com.datical.integration.udeploy.DaticalDB4SerenaDA" name="Datical DB" />
     <description>Datical DB makes it incredibly easy to automate and
 			manage database schema changes for high volume, complex releases,
 			across any environment, for any database. No agents required.
@@ -44,9 +44,9 @@
       </property>
       <property name="daticalDBDeployThreshold" required="false">
       	<property-ui type="selectBox" label="Deploy Threshold"  description="Sets the deployment threshold for rules." />
-		<value label="stopOnError">Stop on Error</value>
-  		<value label="stopOnWarn">Stop on Warn</value>
-		<value label="deployAlways">Deploy Always</value>
+		<value label="Stop on Error">stopOnError</value>
+  		<value label="Stop on Warn">stopOnWarn</value>
+		<value label="Deploy Always">deployAlways</value>
       </property>
     </properties>
     <post-processing><![CDATA[
@@ -136,6 +136,12 @@
       </property>
       <property name="daticalDBExportRollbackSQL" required="false">
         <property-ui type="checkBox" label="Export Rollback SQL" description="If checked, Datical DB will export Rollback SQL to be run against the server." />
+      </property>
+      <property name="daticalDBDeployThreshold" required="false">
+      	<property-ui type="selectBox" label="Deploy Threshold"  description="Sets the deployment threshold for rules." />
+		<value label="Stop on Error">stopOnError</value>
+  		<value label="Stop on Warn">stopOnWarn</value>
+		<value label="Deploy Always">deployAlways</value>
       </property>
       <property name="daticalDBvm" required="false">
       	<property-ui type="textBox" label="Datical DB JVM" description="The Java Virtual Machine to use with Datical DB. (e.g.,  /usr/lib/jvm/java-7-openjdk-amd64)" />
