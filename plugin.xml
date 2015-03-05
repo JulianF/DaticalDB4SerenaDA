@@ -105,6 +105,8 @@
   </step-type>
 
 
+=======
+>>>>>>> branch 'master' of git@github.com:Datical/DaticalDB4SerenaDA.git
   <step-type name="Get Datical DB Version">
     <description>Deploys a Datical DB project to a Server.</description>
     <properties>
