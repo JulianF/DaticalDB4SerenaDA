@@ -7,7 +7,7 @@ Two properties in the plugin step, Datical DB Install Directory and Datical DB D
 
 Release Notes:
 
-### Version 1.161 - March 10, 2015
+### Version 1.162 - March 10, 2015
 
 	- Added support for arbitrary Groovy Script execution.
 	- NOTE: need to create target directory prior to running "Create Datical DB Project"

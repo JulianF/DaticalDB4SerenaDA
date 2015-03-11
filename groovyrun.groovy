@@ -34,6 +34,8 @@ def daticalDBScriptArgs = props['daticalDBScriptArgs'];
 def daticalDBvm = props['daticalDBvm'];
 def daticalDBvmargs = props['daticalDBvmargs'];
 
+daticalDBScript = 'file:/' + daticalDBScript;
+
 def cmdArgs = [daticalDBCmd, 'groovy', daticalDBScript];
 
 if (daticalDBScriptArgs) {
