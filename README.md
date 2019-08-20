@@ -7,6 +7,25 @@ Two properties in the plugin step, Datical DB Install Directory and Datical DB D
 
 Release Notes:
 
+### Version 1.162 - March 10, 2015
+
+	- Added support for arbitrary Groovy Script execution.
+	- NOTE: need to create target directory prior to running "Create Datical DB Project"
+
+### Version 1.160 - March 4, 2015
+
+	- Added support for creating new projects using our project_creator.groovy script. New Step Name is "Create Datical DB Project".
+	- Added support for baselining existing projects using our project_baseline.groovy script. New Step Name is "Register and Baseline Datical DB Project"
+	- Added support for "show version"
+	
+### Version 1.158 - January 27, 2015
+
+ - Added support for Labels in Forecast.
+
+### Version 1.157 - January 12, 2015
+
+ - Added support for Labels in Deploy and Diff Change Log.
+
 ### Version 1.156 - December 1, 2014
 
  - Fixed issue with "Datical DB JVM Arguments" in Groovy scripts. NOTE: not bumping internal version number.
